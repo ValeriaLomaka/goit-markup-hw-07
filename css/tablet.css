@@ -1,10 +1,29 @@
 @media screen and (min-width:768px){
 .container{
     max-width: 766px;
-    
+
+}
+
+.mini-container{
+    max-width: 552px;
+}
+
+
+.section-wrap{
+text-align:left;
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.item{
+  /* margin-left: 24px; */
+  
+  width: calc((100%-24px)/2);
 }
 
 .section-wrap > .item {
-    width: calc(( 100% - 24px ) / 2);
+    width: calc(( 100% - 24px) / 2);
 }
+
 }

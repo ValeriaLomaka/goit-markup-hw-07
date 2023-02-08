@@ -2,4 +2,25 @@
 .container{
     max-width: 1158px;
 }
+.section-wrap{
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.section-subtitle {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+ 
+}
+
+.section-no-padding{
+ display: block;
+  
+}
+
+.description {
+  font-weight: 500;
+}
 }
