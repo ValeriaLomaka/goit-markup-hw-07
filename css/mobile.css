@@ -1,0 +1,16 @@
+@media screen and (min-width:480px){
+.container{
+    max-width: 426px;
+  
+}
+
+
+
+}
+
+@media screen and (max-width:1199px){
+.advantages-icon{
+    display: none;
+}
+
+}
