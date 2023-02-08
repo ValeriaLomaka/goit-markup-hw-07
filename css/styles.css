@@ -332,13 +332,11 @@ color: #404BBF;
 }
 
 .description {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  /* color: var(--secondary-text-color); */
-  font-weight: 500;
-  font-size: 16px;
-  color: #434455;
- 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 
@@ -355,11 +353,15 @@ color: #404BBF;
 }
 
 .section-subtitle {
- font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
 }
 
 .section-desc{
