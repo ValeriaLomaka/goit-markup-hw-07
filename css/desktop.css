@@ -61,4 +61,8 @@ padding-bottom: 120px;
 }
 
 
+.section-wrapper > .item {
+width: calc(( 100% - 72px) / 4)
+}
+
 }

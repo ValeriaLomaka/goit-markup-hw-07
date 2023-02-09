@@ -8,8 +8,14 @@ width: 766px;
 width: 558px;
 }
 
-.section-wrapper > .item{
+.section-wrapper > .item {
 width: calc(( 100% - 24px) / 2)
+}
+
+
+.section-wrapper{
+ column-gap: 24px;
+ row-gap: 64px;
 }
 
 

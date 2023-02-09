@@ -332,7 +332,7 @@ color: #404BBF;
 .section-wrapper{
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+  row-gap: 72px;
   justify-content: center;
 }
 
