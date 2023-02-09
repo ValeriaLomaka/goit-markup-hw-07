@@ -12,6 +12,10 @@ width: 426px;
  display: none;
   
 }
+
+.section-wrap > .item:not(:last-child){
+  margin-bottom: 72px;
+}
 }
 
 
@@ -27,11 +31,11 @@ width: 426px;
     display: none;
 }}
 
-@media screen and (max-width:467px){
+/* @media screen and (max-width:467px){
     .section-wrap > .item:not(:last-child){
   margin-bottom: 72px;
 }
-}
+} */
 
 
 

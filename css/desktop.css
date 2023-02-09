@@ -33,10 +33,31 @@ width: calc((100% - 120px) / 6);
 
 }
 
+.section-wrap > .item:nth-child(odd){
+  margin-bottom: 0;
+  
+}
+
+.section-wrap > .item:nth-child(even){
+  margin-bottom: 0;
+  
+}
+
 .section-clients{
   padding-top: 120px;
   padding-bottom: 120px;
   
+}
+
+.section-advantages{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.section-team{
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 
