@@ -8,6 +8,10 @@ width: 766px;
 width: 552px;
 }
 
+.section-wrapper > .item{
+width: calc((100% - 24px) / 2)
+}
+
 
 .feature-section{
 text-align:left;
@@ -40,9 +44,8 @@ column-gap: 64px;
   margin-bottom: 0;
   
 }
-.section-wrapper >.item{
-      width: calc((100% - 24px) / 2)
-}
+
+
 
 .section-wrap{
 row-gap:72px;

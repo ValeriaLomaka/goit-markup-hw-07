@@ -332,8 +332,13 @@ color: #404BBF;
 .section-wrapper{
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+ 
   justify-content: center;
+}
+
+.section-wrapper > .item{
+    width: 100%;
+  
 }
 
 
