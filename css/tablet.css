@@ -5,11 +5,11 @@ width: 766px;
 }
 
 .mini-container{
-width: 552px;
+width: 558px;
 }
 
 .section-wrapper > .item{
-width: calc((100% - 24px) / 2)
+width: calc(( 100% - 24px) / 2)
 }
 
 
