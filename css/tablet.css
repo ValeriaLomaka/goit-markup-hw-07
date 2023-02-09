@@ -8,6 +8,26 @@ width: 766px;
 width: 558px;
 }
 
+.hero-section  {
+  background-image: var(--gradient),url(../images/desktop-bg.jpg);
+  padding-bottom: 108px;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section{
+   background-image: var(--gradient),url(../images/desktop-bg@2x.jpg);
+  }
+}
+
+.hero-title{
+margin-bottom: 40px;
+max-width: 496px;
+font-size: 56px;
+line-height: 1.07;
+
+}
+
 .section-wrapper > .item {
 width: calc(( 100% - 24px) / 2)
 }

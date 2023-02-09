@@ -54,6 +54,25 @@ width: calc((100% - 120px) / 6);
     padding-bottom: 120px;
 }
 
+.hero-title{
+    margin-bottom: 48px;
+}
+.hero-section{
+padding-top: 120px;
+padding-bottom: 120px;
+} 
+
+/* 
+.hero-title{
+margin-bottom: 48px;
+max-width: 494px;
+max-height: 120px;
+
+}
+.hero-section{
+padding-top: 120px;
+padding-bottom: 120px;
+} */
 
 .section-team{
 padding-top: 120px;

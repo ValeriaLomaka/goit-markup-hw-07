@@ -226,27 +226,33 @@ color: #404BBF;
 
 .hero-section  {
   background-color: var(--hero-background-color);
-  background-image: var(--gradient),url(../images/hero-bg.jpg);
+  background-image: var(--gradient),url(../images/mobile-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   max-width: 1440px;
   margin: 0 auto;
 }
-
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section{
+   background-image: var(--gradient),url(../images/mobile-bg@2x.jpg);
+  }
+}
 
 .hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  max-width: 496px;
-  color: var(--light-color);
-  line-height: 1.07;
-  margin: 0 auto;
-  letter-spacing: 0.02em;
-  margin-bottom: 48px;
+max-width: 319px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+margin: 0 auto;
+letter-spacing: 0.02em;
+color: var(--light-color);
+margin-bottom: 72px;
  
 }
 

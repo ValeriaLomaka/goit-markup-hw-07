@@ -17,6 +17,17 @@ width: 426px;
 .section-wrap > .item:not(:last-child){
   margin-bottom: 72px;
 }
+
+.hero-section  {
+  background-image: var(--gradient),url(../images/tablet-bg.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section{
+   background-image: var(--gradient),url(../images/tablet-bg@2x.jpg);
+  }
+}
 }
 
 
