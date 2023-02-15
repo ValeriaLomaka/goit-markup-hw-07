@@ -174,9 +174,13 @@ color: #404BBF;
   position: fixed;
   top: 0;
   z-index: 100;
-  padding-top: 24px;
-  padding-bottom: 40px;
+  /* padding-top: 24px;
+  padding-bottom: 40px; */
 }
+
+ .mob-menu-header-link.active-page{
+  color: #404BBF;
+ }
 .mob-menu-close{
   width: 24px;
   height: 24px;
@@ -208,6 +212,13 @@ color: #404BBF;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.mob-menu-list > .mob-menu-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: auto; */
 }
 .close-modal-icon {
 }
