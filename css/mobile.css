@@ -4,6 +4,9 @@ width: 426px;
   
 }
 
+
+
+
 .section-wrap{
     flex-wrap: wrap;
     text-align: center;
@@ -33,6 +36,17 @@ width: 426px;
 @media screen and (max-width: 767px){
 .active::after{
   display: none;
+}
+}
+
+@media screen and (max-width: 418px){
+.mob-menu-tel-link{
+  font-size: 21px;
+}
+
+
+.mob-menu-link-list{
+  gap: 20px;
 }
 }
 
