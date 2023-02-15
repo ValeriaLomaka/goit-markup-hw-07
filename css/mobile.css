@@ -44,6 +44,22 @@ width: 426px;
   font-size: 21px;
 }
 
+@media screen and (max-width:479px){
+  .footer-email-input{
+  width: 250px;
+}
+/* .footer-quote{
+  font-size: 15px;
+} */
+
+
+}
+@media screen and (max-width:250px){
+  .footer-email-input{
+  width: 200px;
+}
+}
+
 
 .mob-menu-link-list{
   gap: 20px;
