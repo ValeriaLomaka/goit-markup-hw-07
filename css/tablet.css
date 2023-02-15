@@ -56,6 +56,36 @@ column-gap: 24px;
 
 }
 
+.footer-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 108px;
+  align-items: flex-start;
+}
+
+.footer-soc-div{
+  margin-top: 0;
+  margin-left: 24px;
+}
+
+.footer-soc{
+  text-align: left;
+}
+
+.footer-email-input{
+  width: 264px;
+}
+
+.footer-btn{
+  margin-top: 0;
+  margin-left: 24px;
+}
+.footer-flex-cont{
+  display: flex;
+  align-items: flex-end;
+}
 
 
 .clients-item{
