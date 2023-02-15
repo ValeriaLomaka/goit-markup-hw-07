@@ -30,6 +30,13 @@ width: 426px;
 }
 }
 
+@media screen and (max-width: 767px){
+.active::after{
+  display: none;
+}
+}
+
+
 
 @media screen and (max-width:1199px){
 .advantages-icon{
