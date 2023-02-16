@@ -42,17 +42,15 @@ margin-bottom: 72px;
 }
 
 .section-cards{
-  flex-direction: row;
+  flex-basis: calc((100% - 48px) / 2);
+  row-gap: 72px;
 }
 
 .section-cards > .item{
-/* flex-basis: calc(100%/3-24px); */
-flex-basis: calc((100% - 48px) / 2);
-
-margin-left: var(--card-set-gap);
-margin-top: var(--card-set-gap);
-margin-bottom: 24px;
-
+    width: calc((100% - 24px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
 }
 
 
