@@ -4,9 +4,6 @@ width: 426px;
   
 }
 
-
-
-
 .section-wrap{
     flex-wrap: wrap;
     text-align: center;
@@ -48,10 +45,6 @@ width: 426px;
   .footer-email-input{
   width: 250px;
 }
-/* .footer-quote{
-  font-size: 15px;
-} */
-
 
 }
 @media screen and (max-width:250px){
@@ -79,12 +72,6 @@ width: 426px;
     .section-no-padding{
     display: none;
 }}
-
-/* @media screen and (max-width:467px){
-    .section-wrap > .item:not(:last-child){
-  margin-bottom: 72px;
-}
-} */
 
 
 
