@@ -28,6 +28,33 @@ max-width: 408px;
   padding-left: 24px; */
 }
 
+.section-page{
+  padding-top: 64px;
+  margin-bottom: 64px;
+}
+
+.section-portfolio{
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+gap: var(--card-set-gap);
+margin-bottom: 72px;
+}
+
+.section-cards{
+  flex-direction: row;
+}
+
+.section-cards > .item{
+/* flex-basis: calc(100%/3-24px); */
+flex-basis: calc((100% - 48px) / 2);
+
+margin-left: var(--card-set-gap);
+margin-top: var(--card-set-gap);
+margin-bottom: 24px;
+
+}
+
 
 
 .mini-container{

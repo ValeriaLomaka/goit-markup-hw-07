@@ -703,10 +703,18 @@ border: 1px solid var(--active-color);
 
 }
 
+.section-page{
+  padding-top: 48px;
+  margin-bottom: 48px;
+}
+
 .section-portfolio{
   display: flex;
-  justify-content: center;
-  gap: var(--card-set-gap);
+  flex-wrap: wrap;
+  
+  /* justify-content: center; */
+  /* gap: var(--card-set-gap); */
+  gap: 16px;
   margin-bottom: 72px;
 }
 
@@ -714,7 +722,7 @@ border: 1px solid var(--active-color);
 .section-cards{
   display: flex;
   flex-wrap: wrap;
-
+  flex-direction: column;
   margin-left: -24px;
   margin-top: -24px;
   margin-bottom: -24px;
@@ -1058,8 +1066,6 @@ letter-spacing: 0.04em;
 color: #757575;
 display: flex;
 align-items: center;
-/* gap: 8px; */
-
 }
 
 .modal-area{
