@@ -912,9 +912,6 @@ pointer-events: none;
 }
 
 
-.btn-mob:is(:hover,:focus){
-  background-color: #404BBF;
-}
 .modal-close:hover .close-modal-icon,
 .modal-close:focus .close-modal-icon
 {
