@@ -23,6 +23,12 @@ color: #2E2F42;
 text-align: left;
 margin-bottom: 8px;
 }
+.section-main-subtitle{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;}
 
 .description{
 font-size: 16px;
@@ -31,6 +37,10 @@ max-width: 264px;
 font-weight: 400;
 }
 
+
+.description-section{
+  font-weight: 400;
+}
 .section-no-padding{
  display: block;
   
