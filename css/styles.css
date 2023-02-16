@@ -942,6 +942,7 @@ transition: transform 200ms linear ;
   cursor: pointer;
   border-radius: 50%;
   position: absolute;
+  padding: 0;
   top: 24px;
   right: 24px;
   display: flex;
