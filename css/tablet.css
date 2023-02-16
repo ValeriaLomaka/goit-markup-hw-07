@@ -22,6 +22,12 @@ flex-direction: row;
 }
 }
 
+.modal{
+ max-width: 408px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
 
 
 .mini-container{
