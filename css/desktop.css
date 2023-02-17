@@ -7,6 +7,18 @@
     gap: 24px;
 }
 
+/* .active::after{
+  content:"";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom:-3x;
+  width: 100%;
+  background: #404BBF;
+  border-radius: 2px;
+  height: 4px;
+} */
+
 .footer-soc-div{
   margin-left: 0;
 }
@@ -98,7 +110,7 @@ flex-direction: row;
 
 .active::after{
   content:"";
-  bottom:-5px;
+  bottom:-1px;
 
 }
 
