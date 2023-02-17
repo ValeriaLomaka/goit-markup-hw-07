@@ -7,6 +7,10 @@
     gap: 24px;
 }
 
+.footer-soc-div{
+  margin-left: 0;
+}
+
 .section-cards > .item{
     width: calc((100% - 48px) / 3);
     display: flex;
@@ -233,13 +237,31 @@ margin-bottom: 16px;
 
 }
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1200px){
 
 .footer-flex {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content: center;
 
 
   }
+}
+
+
+@media screen and (max-width: 1199px){
+
+.footer-input-wrap {
+   margin-top: 72px;
+
+
+  }
+
+  
+  
+
+  
+
+  
 }
