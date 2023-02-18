@@ -7,17 +7,6 @@
     gap: 24px;
 }
 
-/* .active::after{
-  content:"";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom:-3x;
-  width: 100%;
-  background: #404BBF;
-  border-radius: 2px;
-  height: 4px;
-} */
 
 .footer-soc-div{
   margin-left: 0;
@@ -242,35 +231,10 @@ margin-bottom: 16px;
 .footer-desc{
   margin-right: 120px;
 }
-
-
 }
-
-@media screen and (min-width: 1200px){
-
-/* .footer-flex {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: center;
-
-
-  } */
-}
-
 
 @media screen and (max-width: 1199px){
-
 .footer-input-wrap {
    margin-top: 72px;
-
-
   }
-
-  
-  
-
-  
-
-  
 }
