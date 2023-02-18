@@ -295,11 +295,10 @@ display: block;
 
 .footer-flex {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     width: 558px;
-    align-items: flex-start;
-    margin: 0 auto;}
+  
+  }
 
 
 }

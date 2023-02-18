@@ -175,10 +175,7 @@ color: rgba(255, 255, 255, 0.6);
   
 }
 
-/* .footer-flex {
-    display: flex;
-    align-items: baseline;
-} */
+
 
 .footer-section {
   background-color: var(--hero-background-color);
