@@ -251,14 +251,14 @@ margin-bottom: 16px;
 
 @media screen and (min-width: 1200px){
 
-.footer-flex {
+/* .footer-flex {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     justify-content: center;
 
 
-  }
+  } */
 }
 
 
